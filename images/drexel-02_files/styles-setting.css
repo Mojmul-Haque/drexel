@@ -1,0 +1,181 @@
+/*  General
+/*-------------------------- */
+html,
+body { font-size: 14px; color: #888888; }
+a { color:#222222; }
+a:hover { color:#888888; }
+.blog-detail .user-tags li  { color:#222222; }
+
+.page-header h2, .page-header h1,
+#filter-sidebar .block-title , .sidebar-block .title h3{ color:#222222; text-align: left;}
+
+.breadcrumb a, 
+.breadcrumb span {color:#000000;  text-transform:lowercase;}
+
+/*  Background
+/*-------------------------- */
+.site-header.on,
+body {
+  
+  background: #ffffff;
+  
+  
+  background-position: left top;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.header-top{background: #fff;color:#fff;}
+#header-menu .menu-top .dropdown-sub, .dropdown-menu {background: #222222;}
+#header-menu .menu-top .site-nav .level-top > a{color: #222222;}
+#header-menu .menu-top .site-nav .level-top > a:hover{color: #888888;}
+#header-menu .menu-top .site-nav .menu-dropdown .dropdown-sub .menu-title a{color: #ffffff;}
+#header-menu .menu-top .site-nav .dropdown-sub ul li a{color: #888888;}
+#header-menu .menu-top .site-nav .dropdown-sub ul li a:hover,#header-menu .menu-top .site-nav .dropdown-sub ul li a:focus
+{color: #ffffff;}
+.header-cart .top-cart a i, .header .header-inner #search-top .icon-search, #header-content .header-links .icons{color:#2d2d2d}
+.header-cart .top-cart a:hover i, .header .header-inner #search-top .icon-search:hover,
+#header-content .header-links .icons:hover{color:#666}
+/*  Footer
+/*-------------------------- */
+.typo-footer {
+  
+  background: #ffffff;
+  
+  color:#999;
+
+}
+.typo-footer h3 { color: #222222; }
+.typo-footer a {color: #888888;}
+.typo-footer a:hover { color: #000000; }
+
+/* Border product item */
+.products-grid .grid-item-border .product-image,
+.grid-item-border.product-img-box .product-photo-container { border-color: #c3c3c3;}
+
+/*  Button
+/*-------------------------- */
+.btn,
+.btn-secondary,
+.text-continue a:hover,
+
+.list-category .view:hover,
+.collection-title a.btn:hover,
+.list-category .grid-item:hover .collection-title a.btn,
+.spr-summary-actions a,
+.btn.spr-button:hover,
+#get-rates-submit,
+#create_customer .action-btn input:hover,
+.template-customers-addresses .grid .large--right a:hover,
+.content-blog .list-blog .button a:hover,
+.product-quickview .product-shop .btn,
+.ajax-success-modal .btn-secondary:hover,
+.infinite-scrolling a:hover,
+.home-blog .owl-theme .owl-controls .owl-buttons div:hover,
+#zt_list_product.owl-theme .owl-controls .owl-buttons div:hover,
+.typo-countdowns .timeline-button a { 
+  background-color: #222222; 
+  color: #ffffff;
+  border-color: #222222;
+}
+
+
+.collection-title a.btn,
+.spr-summary-actions a:hover,
+.btn.spr-button,
+#get-rates-submit,
+#create_customer .action-btn input,
+.template-customers-addresses .grid .large--right a,
+.ajax-success-modal .btn-secondary,
+.typo-countdowns .timeline-button a:hover { 
+  background-color: #dddddd; 
+  color: #222222;
+  border-color: #dddddd;
+}
+
+.btn:hover,
+.btn-secondary:hover,
+#get-rates-submit:hover,
+.product-quickview .product-shop .btn:hover,
+.product-shop #add-to-cart-form .btn:hover {
+  background-color: #dddddd;
+  color: #222222;
+  border-color: #dddddd; 
+}
+.btn span.arrow { border-left-color: #ffffff; }
+.btn:hover span.arrow { border-left-color: #222222; }
+.owl-theme .owl-controls .owl-buttons div,
+.product-shop .product-wishlist a.add-to-wishlist, .product-shop .product-wishlist a.add-to-wishlists,
+.widget-featured-product .btn{ border-color:#eeeeee; background-color: #eeeeee; color: #000000; }
+
+.owl-theme .owl-controls .owl-buttons div:hover,
+.product-shop .product-wishlist a.add-to-wishlist:hover, .product-shop .product-wishlist a.add-to-wishlists:hover,
+.cart-row .btn:hover,
+#dropdown-cart .actions .btn:hover { border-color:#222222; background-color: #222222; color: #ffffff; }
+
+/* Title Color */
+label,
+.spr-icon,
+.widget-title fieldset.box-title legend,
+.home-instagram .widget-title h3,
+.sidebar .widget-title,
+.related-products h2,
+.recently-viewed-products h2,
+.refined-widgets > span,
+.tab-content h4,
+.tab-content .spr-form-title,
+.tab-content .spr-review .spr-review-header-title,
+.tab-content .spr-review .spr-review-header-byline,
+#shipping-calculator h3,
+#add-comment-title, 
+.title-comment,
+.lookbook-slideshow { color:#222222; }
+
+/* Body Color */
+.product-shop .spr-badge .spr-badge-caption,
+.product-shop .product-infor label { color: #888888; }
+
+/* font-size */
+.tab-content .spr-review-content-body { font-size: 14px; }
+
+.site-nav .widget-featured-product .btn,
+.spr-summary-actions a { font-size: 13px; }
+
+.cart-row .btn { font-size: 16px;}
+
+/*  Fonts
+/*-------------------------- */
+body { font-family: Poppins; }
+.text-price{ font-family: Poppins; }
+#header-content .header-inner .site-nav li a { font-family: ; }
+.typo-block-text-image .block-text-image-content h3, .typo-newsletter .typo-newsletter-content h3.module-title,
+.product-shop .prices,
+#header-top-cart .price,
+.main-slideshow .slide-des .title,
+.price-box{ font-family: Oswald; }
+
+
+.product-quickview .selector-wrapper { display: none; }
+
+
+.products-grid .product-des { bottom: 0; }
+
+
+
+
+
+
+.popupnewsletter{background:url(//cdn.shopify.com/s/files/1/2150/5881/t/4/assets/bg_newsletter.jpg?456) scroll center center no-repeat ;background-size: cover;}
+
+
+.template-index #loading {
+  width: 100%;height: 100%;top: 0px;left: 0px;background-position: center center;position: fixed;display: block;opacity: 1;background-color: #fff;
+  z-index: 99;background-image:url(//cdn.shopify.com/s/files/1/2150/5881/t/4/assets/loadding-page.gif?456);background-repeat:no-repeat;text-align: center;}
+
+
+.s-loading:before {background-image: url("s-loading.gif");background-position: right center;background-repeat: no-repeat;background-size: cover;content: "";height: 25px;position: absolute;right: 50px;width: 25px;z-index: 999;top: 5px;}
+.search-form.s-loading{position:relative;}
+.typo-btn1 {background-color: #222222;color: #ffffff;border-color: #ffffff; }
+.typo-btn1:hover {background-color: #dddddd;color: #222222;border-color: #222222; }
+.typo-btn2 {border-color:#eeeeee;background-color: #eeeeee;color: #000000;}
+.typo-btn2:hover {border-color:#222222;background-color: #222222;color: #ffffff;}

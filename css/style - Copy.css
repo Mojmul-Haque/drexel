@@ -1,0 +1,262 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+a,
+a:hover {
+	display: inline-block;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+ul,
+ol,
+li,
+i {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+
+/* commmon css end */
+
+
+/* ================================
+			header part start
+================================**/
+
+header {
+	height: 120px;
+	background: red;
+}
+
+header nav.main_menu ul li {
+	position: relative;
+}
+
+header nav.main_menu ul li a {
+	font-size: 14px;
+	color: #222222;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	padding-right: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 120px;
+	-webkit-transition: all linear .4s;
+	transition: all linear .4s;
+}
+
+header nav.main_menu ul li a:hover {
+	color: #888888;
+}
+
+header nav.main_menu ul li:last-child a {
+	padding-right: 0;
+}
+
+header nav.main_menu ul li ul.sub_menu {
+	position: absolute;
+	left: 0px;
+	background: #222;
+	padding: 8px 0;
+	width: 200px;
+	box-shadow: 0 0px 5px #0000009c;
+	opacity: 0;
+	transform: scaleY(0);
+	transform-origin: top;
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+}
+
+header nav.main_menu ul li ul.sub_menu li a {
+	font-size: 13px;
+	line-height: 35px;
+	color: #ddd;
+	margin-left: 30px;
+	position: relative;
+	transition: all linear .2s;
+	transition-delay: 0;
+	padding: 0;
+}
+
+header nav.main_menu ul li ul.sub_menu li a:after {
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: 13px;
+	width: 20px;
+	background: #fff;
+	opacity: 0;
+	transition: all linear .3s;
+	transition-delay: 0;
+}
+
+header nav.main_menu ul li ul.sub_menu li a:hover:after {
+	left: 0px;
+	opacity: 1;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+
+}
+
+header nav.main_menu ul li ul.sub_menu li a:hover {
+	padding-left: 15px;
+}
+
+header nav.main_menu ul li:hover .sub_menu {
+	opacity: 1;
+	transform: scaleY(1);
+}
+
+header nav.main_menu ul .shop {
+	z-index: 1;
+}
+
+
+header nav.main_menu ul .shop::before {
+	content: 'HOT';
+	position: absolute;
+	left: 18px;
+	top: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	height: 20px;
+	line-height: 19px;
+	background: #cc0000;
+	padding: 0 7px;
+	font-size: 10px;
+	color: #fff;
+	z-index: -1;
+}
+
+header nav.main_menu ul .shop::after {
+	content: '';
+	position: absolute;
+	left: 24px;
+	top: 39px;
+	border-width: 8px 4px;
+	border-style: solid;
+	border-color: transparent transparent #cc0000 transparent;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+	z-index: -1;
+}
+
+header .logo {
+	line-height: 120px;
+}
+
+header .cart_part {
+	line-height: 120px;
+}
+
+header .cart_part ul li a {
+	font-size: 12px;
+	color: #222222;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-right: 20px;
+	-webkit-transition: all linear .4s;
+	transition: all linear .4s;
+}
+
+header .cart_part ul li a:hover {
+	color: #888888;
+}
+
+header .container {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+/* ******************* shop menu************************************************************************************** */
+
+header nav.main_menu ul li .shop_dropdown {
+	position: absolute;
+	left: -84px;
+	background: #222;
+	width: 1140px;
+	box-shadow: 0 0px 5px #0000009c;
+	opacity: 0;
+	transform: scaleY(0);
+	transform-origin: top;
+	transition: all linear .4s;
+	padding: 30px;
+}
+
+header nav.main_menu ul li .shop_dropdown li.drop_top {
+	position: relative;
+}
+
+header nav.main_menu ul li .shop_dropdown li.drop_top:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 32px;
+	border-bottom: 1px solid #888;
+	width: 100%;
+}
+
+header nav.main_menu ul li .shop_dropdown li.drop_top a {
+	color: #fff;
+	line-height: 35px;
+	display: block;
+}
+
+header nav.main_menu ul li .shop_dropdown li.drop_top ul {
+	padding-top: 10px;
+}
+
+header nav.main_menu ul li .shop_dropdown li.drop_top ul li a {
+	font-size: 13px;
+	color: #888888;
+}
+
+header nav.main_menu ul li .shop_dropdown li.drop_top ul li a:hover {
+	color: #fff;
+}
+
+header nav.main_menu ul li:hover .shop_dropdown {
+	opacity: 1;
+	transform: scaleY(1);
+}
+
+
+header nav.main_menu ul li .featuers_dropdown {
+	left: -169px !important;
+}
+
+/* ================================
+			header part end
+================================**/
+
+
+/* ================================
+			header part start
+================================**/
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
